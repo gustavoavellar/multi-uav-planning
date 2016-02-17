@@ -6,4 +6,5 @@ This is a matlab code for path planning a coverage mission using multiple UAVs. 
 
 - Matlab - <http://www.mathworks.com>
 - YALMIP - <http://users.isy.liu.se/johanl/yalmip/pmwiki.php?n=Main.HomePage>
-- Gurobi - <http://www.gurobi.com>
+- Gurobi - <http://www.gurobi.com> (Optional)
+
