@@ -43,7 +43,8 @@ plotMap;
 % Selecione os pontos limítrofes da área a ser investigada. A base é o 
 % primeiro ponto escolhido e os outros pontos (mínimo de três, no total)
 %serão utilizados para definir a fronteira.
-%[x,y] = ginput;
+[x,y] = ginput;
+% Exemplos:
 %x = [500 500 1000 1000]'; y = [-250 250 -250 250]';
 %x = [490 490 1510 1510]'; y = [500 -500 -500 500]';    % artigo
 %x = [490 490 1510]'; y = [500 -500 500]';              % artigo
@@ -54,7 +55,7 @@ plotMap;
 %x = [170 -101 561 337]';y = [ -297 727 -249 689]';
 %x = [-325.3297 909.2549 732.8857 -525.5327]';y = [-406.7732 -201.8035 966.0468 718.1765]';
 %x = [-225 165 1100 850]';y = [784 -716 -502 808]';
-x = [250 250 975]';y = [-300 725 725]';
+%x = [250 250 975]';y = [-300 725 725]';
 
 %%
 [lmin,lmax,V,laneDist] = findStrips(x,y,sidelap,imageWidth,imageLength);
